@@ -1,0 +1,36 @@
+{
+  "private": true,
+  "name": "justweb3-chrome",
+  "description": "JustWeb3 Chromium Extension, powered by JustaName",
+  "version": "1.0.1",
+  "author": {
+    "name": "JustaName",
+    "email": "support@justaname.id",
+    "url": "https://justaname.id"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@justweb3/widget": "^0.0.100",
+    "@rainbow-me/rainbowkit": "^2.2.1",
+    "@tanstack/react-query": "^5.62.0",
+    "ethers": "5.7.2",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "siwe": "^2.3.2",
+    "tailwindcss": "^3.4.1",
+    "viem": "^2.21.55",
+    "wagmi": "^2.14.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.5",
+    "extension": "latest",
+    "typescript": "5.3.3"
+  },
+  "scripts": {
+    "dev": "extension dev",
+    "start": "extension start",
+    "build": "extension build",
+    "build:prod": "extension build --browser=chrome --zip"
+  }
+}
